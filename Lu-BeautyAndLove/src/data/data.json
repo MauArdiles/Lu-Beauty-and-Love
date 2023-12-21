@@ -1,0 +1,18 @@
+{"products":
+    [{
+        "id": 1,
+        "brand":"Yves D'Orgeval",
+        "name": "AD Le Secret X 100ml - Mujer",
+        "description": "Frutal Fresco, Amaderada, Arándanos, Limón",
+        "price":23.100,
+        "image":"/Lu-BeautyAndLove/src/assets/Le Secret.jpg"
+    },
+    {
+        "id": 2,
+        "brand":"Yves D'Orgeval",
+        "name": "Bad Girl Legere X 90ml - Mujer",
+        "description": "Mandarina, Limón, Jazmín, Sandalo, Canela",
+        "price":27.600,
+        "image":"/Lu-BeautyAndLove/src/assets/Bad Girl Legere.jpg"
+    }
+]}

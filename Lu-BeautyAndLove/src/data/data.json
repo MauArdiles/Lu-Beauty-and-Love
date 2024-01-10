@@ -35,21 +35,13 @@
     {
         "id": 1.5,
         "brand":"Yves D'Orgeval",
-        "name": "Bad Girl Legere X 90Ml - MUJER",
-        "description": "Mandarina, Limon, Jazmin, Sandalo Y Canela",
-        "price":27.600,
-        "image":""
-    },
-    {
-        "id": 1.6,
-        "brand":"Yves D'Orgeval",
         "name": "D'orgeval Code X 110Ml - MUJER",
         "description": "Citrico, Floral, Dulce, Miel, Vainilla",
         "price":23.800,
         "image":""
     },
     {
-        "id": 1.7,
+        "id": 1.6,
         "brand":"Yves D'Orgeval",
         "name": "Gh X 50Ml. - MUJER",
         "description": "Frutal Fresco, Bergamota, Pomelo, Rosas, Sándalo",
@@ -57,7 +49,7 @@
         "image":""
     },
     {
-        "id": 1.8,
+        "id": 1.7,
         "brand":"Yves D'Orgeval",
         "name": "Yd Irresistible Sensualx 100Ml. - MUJER",
         "description": "Floral Especiado, Vainilla, Patchouli",
@@ -65,7 +57,7 @@
         "image":""
     },
     {
-        "id": 1.9,
+        "id": 1.8,
         "brand":"Yves D'Orgeval",
         "name": "Yd Fleur X 100Ml. - MUJER",
         "description": "Floral Dulce, Rosa De Bulgaria, Violeta, Vainilla",
@@ -73,7 +65,7 @@
         "image":""
     },
     {
-        "id": 1.10,
+        "id": 1.9,
         "brand":"Yves D'Orgeval",
         "name": "Yd12 Vip X 100Ml. - MUJER",
         "description": "Floral, Afrutado Dulce, Almizcle",
@@ -81,7 +73,7 @@
         "image":""
     },
     {
-        "id": 1.11,
+        "id": 1.10,
         "brand":"Yves D'Orgeval",
         "name": "Adventure X 120 Ml. - HOMBRE",
         "description": "Almizcle, Ámbar Gris, Musgo De Roble, Vainilla, Abedul, Baya Rosa, Jazmín, Pachuli, Bergamota, Casis, Hoja De Grosella Negra",
@@ -89,7 +81,7 @@
         "image":""
     },
     {
-        "id": 1.12,
+        "id": 1.11,
         "brand":"Yves D'Orgeval",
         "name": "Black Yd Aphrodisiaque Men X 85Ml. - HOMBRE",
         "description": "Dulce Amielado, Canela, Almendra, Cuero Azafrán",
@@ -97,7 +89,7 @@
         "image":""
     },
     {
-        "id": 1.13,
+        "id": 1.12,
         "brand":"Yves D'Orgeval",
         "name": "D'orgeval Code Men X 100Ml. - HOMBRE",
         "description": "Dulce Atabacado, Notas Frutales Suaves, Cuero",
@@ -105,7 +97,7 @@
         "image":""
     },
     {
-        "id": 1.14,
+        "id": 1.13,
         "brand":"Yves D'Orgeval",
         "name": "G. Millionaire Gold X 100Ml. - HOMBRE",
         "description": "Frutal Especiado, Canela, Cuero, Mandarina",
@@ -113,7 +105,7 @@
         "image":""
     },
     {
-        "id": 1.15,
+        "id": 1.14,
         "brand":"Yves D'Orgeval",
         "name": "Gh Men X 100Ml. - HOMBRE",
         "description": "Amaderado, Notas Cítricas, Cuero Y Vainilla",
@@ -121,7 +113,7 @@
         "image":""
     },
     {
-        "id": 1.16,
+        "id": 1.15,
         "brand":"Yves D'Orgeval",
         "name": "Good Boy Cobalt 100Ml. - HOMBRE",
         "description": "Lavanda, Pimienta Rosa, Ciruela, Geranio, Vetiver, Trufa, Cedro Y Roble.",
@@ -129,7 +121,7 @@
         "image":""
     },
     {
-        "id": 1.17,
+        "id": 1.16,
         "brand":"Yves D'Orgeval",
         "name": "Grand Victorious X 100Ml. - HOMBRE",
         "description": "Cítrico Dulce, Notas Marinas, Canela, Especiado",
@@ -137,7 +129,7 @@
         "image":""
     },
     {
-        "id": 1.18,
+        "id": 1.17,
         "brand":"Yves D'Orgeval",
         "name": "Horse Blue X 90Ml. - HOMBRE",
         "description": "Frutal Fresco, Acuático, Notas Amaderadas",
@@ -145,7 +137,7 @@
         "image":""
     },
     {
-        "id": 1.19,
+        "id": 1.18,
         "brand":"Yves D'Orgeval",
         "name": "Victorious X 100Ml. (Especial) - HOMBRE",
         "description": "Cítrico Fresco, Notas Marinas, Madera, Pimienta Rosa",
@@ -153,7 +145,7 @@
         "image":""
     },
     {
-        "id": 1.20,
+        "id": 1.19,
         "brand":"Yves D'Orgeval",
         "name": "Yd12 Vip Men X 110Ml. - HOMBRE",
         "description": "Dulce Frutal, Cítrico, Notas Amaderadas, Pimienta",

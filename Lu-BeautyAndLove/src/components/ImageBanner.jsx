@@ -2,7 +2,14 @@ import Carousel from "react-bootstrap/Carousel";
 
 function ImageBanner() {
   return (
-    <Carousel>
+    <Carousel
+      style={{
+        backgroundPosition: "50% 50%",
+        backgroundSize: "cover",
+        height: "490px",
+        width: "100%",
+      }}
+    >
       <Carousel.Item>
         <img alt="First slide" />
         <Carousel.Caption>

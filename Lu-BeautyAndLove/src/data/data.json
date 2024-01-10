@@ -1,18 +1,422 @@
 {"products":
-    [{
-        "id": 1,
+    [
+        {
+        "id": 1.1,
         "brand":"Yves D'Orgeval",
         "name": "AD Le Secret X 100ml - Mujer",
         "description": "Frutal Fresco, Amaderada, Arándanos, Limón",
         "price":23.100,
         "image":"/Lu-BeautyAndLove/src/assets/Le Secret.jpg"
-    },
+        },
     {
-        "id": 2,
+        "id": 1.2,
         "brand":"Yves D'Orgeval",
         "name": "Bad Girl Legere X 90ml - Mujer",
         "description": "Mandarina, Limón, Jazmín, Sandalo, Canela",
         "price":27.600,
         "image":"/Lu-BeautyAndLove/src/assets/Bad Girl Legere.jpg"
+    },
+    {
+        "id": 1.3,
+        "brand":"Yves D'Orgeval",
+        "name": "Acrilico Yd12 Vip X 80Ml. - MUJER",
+        "description": "Floral, Afrutado Dulce, Almizcle",
+        "price":33.150,
+        "image":""
+    },
+    {
+        "id": 1.4,
+        "brand":"Yves D'Orgeval",
+        "name": "Ad X 100Ml. - MUJER",
+        "description": "Dulce, Vainilla, Azucena, Orquidea, Mandarina",
+        "price":23.100,
+        "image":""
+    },
+    {
+        "id": 1.5,
+        "brand":"Yves D'Orgeval",
+        "name": "Bad Girl Legere X 90Ml - MUJER",
+        "description": "Mandarina, Limon, Jazmin, Sandalo Y Canela",
+        "price":27.600,
+        "image":""
+    },
+    {
+        "id": 1.6,
+        "brand":"Yves D'Orgeval",
+        "name": "D'orgeval Code X 110Ml - MUJER",
+        "description": "Citrico, Floral, Dulce, Miel, Vainilla",
+        "price":23.800,
+        "image":""
+    },
+    {
+        "id": 1.7,
+        "brand":"Yves D'Orgeval",
+        "name": "Gh X 50Ml. - MUJER",
+        "description": "Frutal Fresco, Bergamota, Pomelo, Rosas, Sándalo",
+        "price":20.150,
+        "image":""
+    },
+    {
+        "id": 1.8,
+        "brand":"Yves D'Orgeval",
+        "name": "Yd Irresistible Sensualx 100Ml. - MUJER",
+        "description": "Floral Especiado, Vainilla, Patchouli",
+        "price":24.200,
+        "image":""
+    },
+    {
+        "id": 1.9,
+        "brand":"Yves D'Orgeval",
+        "name": "Yd Fleur X 100Ml. - MUJER",
+        "description": "Floral Dulce, Rosa De Bulgaria, Violeta, Vainilla",
+        "price":23.500,
+        "image":""
+    },
+    {
+        "id": 1.10,
+        "brand":"Yves D'Orgeval",
+        "name": "Yd12 Vip X 100Ml. - MUJER",
+        "description": "Floral, Afrutado Dulce, Almizcle",
+        "price":28.700,
+        "image":""
+    },
+    {
+        "id": 1.11,
+        "brand":"Yves D'Orgeval",
+        "name": "Adventure X 120 Ml. - HOMBRE",
+        "description": "Almizcle, Ámbar Gris, Musgo De Roble, Vainilla, Abedul, Baya Rosa, Jazmín, Pachuli, Bergamota, Casis, Hoja De Grosella Negra",
+        "price":33.500,
+        "image":""
+    },
+    {
+        "id": 1.12,
+        "brand":"Yves D'Orgeval",
+        "name": "Black Yd Aphrodisiaque Men X 85Ml. - HOMBRE",
+        "description": "Dulce Amielado, Canela, Almendra, Cuero Azafrán",
+        "price":26.000,
+        "image":""
+    },
+    {
+        "id": 1.13,
+        "brand":"Yves D'Orgeval",
+        "name": "D'orgeval Code Men X 100Ml. - HOMBRE",
+        "description": "Dulce Atabacado, Notas Frutales Suaves, Cuero",
+        "price":24.000,
+        "image":""
+    },
+    {
+        "id": 1.14,
+        "brand":"Yves D'Orgeval",
+        "name": "G. Millionaire Gold X 100Ml. - HOMBRE",
+        "description": "Frutal Especiado, Canela, Cuero, Mandarina",
+        "price":28.400,
+        "image":""
+    },
+    {
+        "id": 1.15,
+        "brand":"Yves D'Orgeval",
+        "name": "Gh Men X 100Ml. - HOMBRE",
+        "description": "Amaderado, Notas Cítricas, Cuero Y Vainilla",
+        "price":24.200,
+        "image":""
+    },
+    {
+        "id": 1.16,
+        "brand":"Yves D'Orgeval",
+        "name": "Good Boy Cobalt 100Ml. - HOMBRE",
+        "description": "Lavanda, Pimienta Rosa, Ciruela, Geranio, Vetiver, Trufa, Cedro Y Roble.",
+        "price":28.400,
+        "image":""
+    },
+    {
+        "id": 1.17,
+        "brand":"Yves D'Orgeval",
+        "name": "Grand Victorious X 100Ml. - HOMBRE",
+        "description": "Cítrico Dulce, Notas Marinas, Canela, Especiado",
+        "price":27.850,
+        "image":""
+    },
+    {
+        "id": 1.18,
+        "brand":"Yves D'Orgeval",
+        "name": "Horse Blue X 90Ml. - HOMBRE",
+        "description": "Frutal Fresco, Acuático, Notas Amaderadas",
+        "price":22.600,
+        "image":""
+    },
+    {
+        "id": 1.19,
+        "brand":"Yves D'Orgeval",
+        "name": "Victorious X 100Ml. (Especial) - HOMBRE",
+        "description": "Cítrico Fresco, Notas Marinas, Madera, Pimienta Rosa",
+        "price":27.850,
+        "image":""
+    },
+    {
+        "id": 1.20,
+        "brand":"Yves D'Orgeval",
+        "name": "Yd12 Vip Men X 110Ml. - HOMBRE",
+        "description": "Dulce Frutal, Cítrico, Notas Amaderadas, Pimienta",
+        "price":28.400,
+        "image":""
+    },
+    {
+        "id": 2.1,
+        "brand":"Sandra Marzzan",
+        "name": "Aromatizador x 500ml + Gatillo",
+        "description": "Aromas Varios",
+        "price":4.990,
+        "image":""
+    },
+    {
+        "id": 2.1,
+        "brand":"Sandra Marzzan",
+        "name": "Difusor Aromático",
+        "description": "Aromas Varios, incluye: cubo para rellenar y varillas",
+        "price":6.990,
+        "image":""
+    },
+    {
+        "id": 3.1,
+        "brand":"Bagués",
+        "name": "New York Sexy / 212 Sexy",
+        "description": "Fragancia Floral: leñoso, caramelo, citrus",
+        "price":12.990,
+        "image":""
+    },
+    {
+        "id": 3.2,
+        "brand":"Bagués",
+        "name": "Femme / Fama",
+        "description": "Floral Amaderada: tropical, sabroso,dulce",
+        "price":12.990,
+        "image":""
+    },
+    {
+        "id": 3.3,
+        "brand":"Bagués",
+        "name": "New York / 212 Feme",
+        "description": "Floral Amaderada: citrus,almizcle ,flores bcas",
+        "price":12.990,
+        "image":""
+    },
+    {
+        "id": 3.4,
+        "brand":"Bagués",
+        "name": "Mumbai/ My Way",
+        "description": "Floral: flores bcas,citrus,nardo",
+        "price":12.990,
+        "image":""
+    },
+    {
+        "id": 3.5,
+        "brand":"Bagués",
+        "name": "Venecia / Amor Amor",
+        "description": "Floral frutal: citrus, dulce, rosa",
+        "price":12.990,
+        "image":""
+    },
+    {
+        "id": 3.6,
+        "brand":"Bagués",
+        "name": "Queens / Very Irresistible",
+        "description": "Floral frutal: rosa, anís, citrus",
+        "price":12.990,
+        "image":""
+    },
+    {
+        "id": 3.7,
+        "brand":"Bagués",
+        "name": "Berlín / L’ interdit",
+        "description": "Floral: citrus, pachuli, terroso",
+        "price":12.990,
+        "image":""
+    },
+    {
+        "id": 3.8,
+        "brand":"Bagués",
+        "name": "Charlotte / Good Girl",
+        "description": "Floral ámbar : cacao,flores bcas, leñoso",
+        "price":12.990,
+        "image":""
+    },
+    {
+        "id": 3.9,
+        "brand":"Bagués",
+        "name": "Tokio / Flowers by Kenzo",
+        "description": "Fragancia floral: violeta,rosa,dulc",
+        "price":12.990,
+        "image":""
+    },
+    {
+        "id": 3.10,
+        "brand":"Bagués",
+        "name": "Positano/ Light Blue",
+        "description": "Floral frutal: sabroso,citrus ,fresco",
+        "price":12.990,
+        "image":""
+    },
+    {
+        "id": 3.11,
+        "brand":"Bagués",
+        "name": "Manhattan / 212 VIP fem",
+        "description": "Fragancia ámbar vainilla: Ron, tropical,leñoso",
+        "price":12.990,
+        "image":""
+    },
+    {
+        "id": 3.12,
+        "brand":"Bagués",
+        "name": "Angers / Ange ou démon",
+        "description": "Fragancia Floral: fresco,almizclado,flores bcas",
+        "price":12.990,
+        "image":""
+    },
+    {
+        "id": 3.13,
+        "brand":"Bagués",
+        "name": "Chicago / Carolina Herrera",
+        "description": "Fragancia Floral: flores amarillas, nardo,leñoso…",
+        "price":12.990,
+        "image":""
+    },
+    {
+        "id": 3.14,
+        "brand":"Bagués",
+        "name": "Milán / Only One",
+        "description": "Fragancia ámbar de vainilla: caramelo,violeta,picante caliente",
+        "price":12.990,
+        "image":""
+    },
+    {
+        "id": 3.15,
+        "brand":"Bagués",
+        "name": "Esparta/ Invictus",
+        "description": "Fragancia Amaderada acuática: alcanfor,picante fresco,marino",
+        "price":28.990,
+        "image":""
+    },
+    {
+        "id": 3.16,
+        "brand":"Bagués",
+        "name": "Mónaco/ Polo Red",
+        "description": "Fragancia Amaderada especiada:café,sabroso,aromático",
+        "price":26.990,
+        "image":""
+    },
+    {
+        "id": 3.17,
+        "brand":"Bagués",
+        "name": "Bucarest/ Black XS",
+        "description": "Fragancia Amaderada de ámbar : dulce, balsámico,canela",
+        "price":26.990,
+        "image":""
+    },
+    {
+        "id": 3.18,
+        "brand":"Bagués",
+        "name": "Las Vegas / One million",
+        "description": "Fragancia de cuero: flores bcas, nardo,leñoso",
+        "price":29.990,
+        "image":""
+    },
+    {
+        "id": 3.19,
+        "brand":"Bagués",
+        "name": "Rhandom/Phantom",
+        "description": "Aromática amaderada: vainilla,fresco,ahumado",
+        "price":30.990,
+        "image":""
+    },
+    {
+        "id": 3.20,
+        "brand":"Bagués",
+        "name": "New York men Héroes/ 212 Héroes",
+        "description": "Aromática frutal: Sabroso,acuático,fresco",
+        "price":30.990,
+        "image":""
+    },
+    {
+        "id": 4.1,
+        "brand":"Make Up",
+        "name": "Labial",
+        "description": "Labial, larga duración, secado rápido.",
+        "price":7.990,
+        "image":""
+    },
+    {
+        "id": 4.2,
+        "brand":"Make Up",
+        "name": "Sombras Dúo",
+        "description": "Crea miradas intensas",
+        "price":7.490,
+        "image":""
+    },
+    {
+        "id": 5.1,
+        "brand":"Esmaltes OPI 100% Veganos",
+        "name": "Top coat y Base fortalecedora",
+        "description": "",
+        "price":5.990,
+        "image":""
+    },
+    {
+        "id": 5.2,
+        "brand":"Make Up",
+        "name": "Esmaltes OPI",
+        "description": "Colores Varios",
+        "price":5.990,
+        "image":""
+    },
+    {
+        "id": 6.1,
+        "brand":"All Beauty",
+        "name": "Body Splash",
+        "description": "Aromas Varios",
+        "price":9.990,
+        "image":""
     }
-]}
+],
+"products set":[
+    {
+        "id": 1,
+        "brand":"CHER.",
+        "name": "Set CHER. Veinte",
+        "description": "Eau de Parfum + Body Splash",
+        "price":29.900,
+        "image":""
+    },
+    {
+        "id": 2,
+        "brand":"Paco Rabanne",
+        "name": "Cofre Fame Paco Rabanne",
+        "description": "Fame Eau de Parfum 80ml + Body Lotion 100ml",
+        "price":10,
+        "image":""
+    },
+    {
+        "id": 3,
+        "brand":"Paco Rabanne",
+        "name": "Cofre Lady Million Paco Rabanne",
+        "description": "Lady Million Eau de Parfum 80ml + Body Lotion 100ml + Mini Eau de Parfum 5ml",
+        "price":10,
+        "image":""
+    },
+    {
+        "id": 4,
+        "brand":"Jean Paul Gaultier",
+        "name": "Cofre Scandal Jean Paul Gaultier",
+        "description": "Scandal Eau de Parfum 80ml + Body Lotion 75ml + Mini Eau de Parfum 5ml",
+        "price":10,
+        "image":""
+    },
+    {
+        "id": 5,
+        "brand":"Carolina Herrera",
+        "name": "Cofre Good Girl Carolina Herrera",
+        "description": "SGood Girl Eau de Parfum 80ml + Máscara de Pestañas + Mini Eau de Parfum 7ml",
+        "price":10,
+        "image":""
+    }
+]
+}

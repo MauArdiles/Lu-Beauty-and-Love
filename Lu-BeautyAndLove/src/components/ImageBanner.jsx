@@ -1,37 +1,23 @@
 import Carousel from "react-bootstrap/Carousel";
+import Gaultier from "../assets/Ingresos/Ingresos.png";
+import Blossom from "../assets/Ingresos/IngresosDos.png";
+import Nina from "../assets/Ingresos/IngresosTres.png";
+import BannerInn from "../assets/Ingresos/InformeIngresos.png";
 
 function ImageBanner() {
   return (
-    <Carousel
-      style={{
-        backgroundPosition: "50% 50%",
-        backgroundSize: "cover",
-        height: "490px",
-        width: "100%",
-      }}
-    >
+    <Carousel data-bs-theme="dark">
       <Carousel.Item>
-        <img alt="First slide" />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
+        <img className="d-block w-100" src={BannerInn} alt="Ingresos" />
       </Carousel.Item>
       <Carousel.Item>
-        <img alt="Second slide" />
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
+        <img className="d-block w-100" src={Nina} alt="NinaRicci" />
       </Carousel.Item>
       <Carousel.Item>
-        <img alt="Third slide" />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
+        <img className="d-block w-100" src={Gaultier} alt="Gaultier" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100" src={Blossom} alt="Blossom" />
       </Carousel.Item>
     </Carousel>
   );

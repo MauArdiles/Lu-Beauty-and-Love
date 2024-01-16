@@ -9,8 +9,6 @@ import Button from "react-bootstrap/Button";
 function Header() {
   return (
     <Navbar
-      bg="light"
-      data-bs-theme="light"
       style={{
         width: "100%",
         height: "300px",
@@ -19,6 +17,8 @@ function Header() {
     >
       <Container
         style={{
+          backgroundColor: "white",
+          width: "100%",
           display: "flex",
           flexFlow: "row",
           justifyContent: "flex-start",
@@ -73,7 +73,6 @@ const SearchBar = () => {
         marginTop: "3em",
         display: "flex",
         flexFlow: "row",
-        justifyContent: "flex-start",
       }}
     >
       <InputGroup>
@@ -82,7 +81,7 @@ const SearchBar = () => {
           placeholder="Search"
           className=" mr-sm-2"
           style={{
-            width: "500px",
+            width: "250px",
             height: "30px",
             borderColor: "#dc1926",
             borderRadius: "50px",
@@ -90,13 +89,15 @@ const SearchBar = () => {
         />
         <Button
           type="submit"
+          variant="light"
           style={{
-            width: "150px",
+            width: "100px",
             height: "30px",
             borderColor: "#dc1926",
             borderRadius: "50px",
             fontFamily: "DeVinne Txt BT-Regular",
             fontSize: "20px",
+            textAlign: "center",
           }}
         >
           Search
@@ -113,11 +114,13 @@ const RrssBar = () => {
         marginTop: "2em",
         display: "flex",
         flexFlow: "row",
-        justifyContent: "flex-end",
       }}
     >
       <li>
-        <a>
+        <a
+          className="facebookLink"
+          href="https://www.facebook.com/profile.php?id=61553811362866&mibextid=9R9pXO"
+        >
           <svg
             width="80"
             height="80"
@@ -135,7 +138,10 @@ const RrssBar = () => {
             </g>
           </svg>
         </a>
-        <a>
+        <a
+          className="InstagramLink"
+          href="https://www.instagram.com/lubeautyandlove?igsh=OXJ4bDJnNTk1czRy"
+        >
           <svg
             width="80"
             height="80"
@@ -153,7 +159,7 @@ const RrssBar = () => {
             </g>
           </svg>
         </a>
-        <a>
+        <a className="emailLink" href="">
           <svg
             width="80"
             height="80"
@@ -171,7 +177,7 @@ const RrssBar = () => {
             </g>
           </svg>
         </a>
-        <a>
+        <a className="WhatsappLink" href="https://wa.me/message/6EMEVOO63BC2O1">
           <svg
             width="80"
             height="80"

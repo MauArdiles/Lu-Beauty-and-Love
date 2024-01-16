@@ -1,14 +1,15 @@
 import CarrouselBanner from "./components/ImageBanner";
 import Header from "./components/Header";
 import MarkBanner from "./components/MarkBanner";
-import LayerOne from "./components/LayerOne";
+import PerfumeLayerOne from "./components/PerfumeLayerOne";
+import products from "./data/data.json";
 function App() {
   return (
     <>
       <Header />
       <MarkBanner />
       <CarrouselBanner />
-      <LayerOne />
+      <PerfumeLayerOne products={products} />
     </>
   );
 }

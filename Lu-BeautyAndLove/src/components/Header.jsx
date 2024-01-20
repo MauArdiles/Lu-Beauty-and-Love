@@ -1,10 +1,12 @@
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
-import logoLu from "../assets/Logo_Principal.jpg";
+import logoLu from "../assets/Logo.png";
 import Row from "react-bootstrap/Row";
 import InputGroup from "react-bootstrap/InputGroup";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+import Dropdown from "react-bootstrap/Dropdown";
+import DropdownButton from "react-bootstrap/DropdownButton";
 
 function Header() {
   return (
@@ -40,7 +42,11 @@ const Logo = () => {
       <img
         src={logoLu}
         alt="Logo Lu"
-        style={{ width: "250px", height: "auto" }}
+        style={{
+          width: "250px",
+          height: "auto",
+          borderRadius: "100%",
+        }}
       />
     </a>
   );
@@ -48,18 +54,25 @@ const Logo = () => {
 
 const InteractiveBar = () => {
   return (
-    <div style={{ width: "100%", display: "flex", flexFlow: "column" }}>
+    <div
+      style={{
+        width: "100%",
+        display: "flex",
+        flexFlow: "column",
+        justifyContent: "center",
+        marginTop: "1em",
+      }}
+    >
+      <RrssBar />
       <Row
         style={{
-          marginLeft: "5em",
           display: "flex",
           flexFlow: "row",
-          justifyContent: "space-between",
+          float: "right",
           alignItems: "center",
         }}
       >
         <SearchBar />
-        <RrssBar />
       </Row>
       <Buttons />
     </div>
@@ -70,36 +83,17 @@ const SearchBar = () => {
   return (
     <Row
       style={{
-        marginTop: "3em",
-        display: "flex",
-        flexFlow: "row",
+        marginTop: "1em",
       }}
     >
-      <InputGroup>
+      <InputGroup className="mb-1" size="sm">
         <Form.Control
-          type="text"
           placeholder="Search"
-          className=" mr-sm-2"
-          style={{
-            width: "250px",
-            height: "30px",
-            borderColor: "#dc1926",
-            borderRadius: "50px",
-          }}
+          aria-label="Search"
+          aria-describedby="basic-addon2"
+          style={{ borderColor: "#DC1926" }}
         />
-        <Button
-          type="submit"
-          variant="light"
-          style={{
-            width: "100px",
-            height: "30px",
-            borderColor: "#dc1926",
-            borderRadius: "50px",
-            fontFamily: "DeVinne Txt BT-Regular",
-            fontSize: "20px",
-            textAlign: "center",
-          }}
-        >
+        <Button variant="outline-danger" id="button-addon2">
           Search
         </Button>
       </InputGroup>
@@ -111,12 +105,17 @@ const RrssBar = () => {
   return (
     <Row
       style={{
-        marginTop: "2em",
-        display: "flex",
-        flexFlow: "row",
+        width: "100%",
       }}
     >
-      <li>
+      <li
+        style={{
+          listStyle: "none",
+          display: "flex",
+          flexFlow: "row",
+          justifyContent: "center",
+        }}
+      >
         <a
           className="facebookLink"
           href="https://www.facebook.com/profile.php?id=61553811362866&mibextid=9R9pXO"
@@ -214,70 +213,74 @@ const Buttons = () => {
         borderColor: "#dc1926",
       }}
     >
-      <Button
-        type="submit"
+      <DropdownButton
+        id="dropdown-basic-button"
+        title="PERFUMES"
+        variant="danger"
         style={{
-          color: "#dc19269e",
-          backgroundColor: "rgba(255, 255, 255, 1)",
-          border: "1px solid",
-          borderColor: "#9b131c",
-          borderRadius: "50px",
+          fontFamily: "DeVinne Txt BT",
+          fontSize: "18px",
           height: "30px",
           width: "150px",
-          marginRight: "1em",
+          marginRight: "2em",
           marginTop: "1em",
         }}
       >
-        Item 1
-      </Button>
-      <Button
-        type="submit"
+        <Dropdown.Item href="#Yves D`Orgeval">Yves D`Orgeval</Dropdown.Item>
+        <Dropdown.Item href="#Sets-container">Sets y Cofres</Dropdown.Item>
+        <Dropdown.Item href="#LineaBagues">Línea Bagues</Dropdown.Item>
+      </DropdownButton>
+      <DropdownButton
+        id="dropdown-basic-button"
+        title="MAQUILLAJE"
+        variant="danger"
         style={{
-          color: "#dc19269e",
-          backgroundColor: "rgba(255, 255, 255, 1)",
-          border: "1px solid",
-          borderColor: "#9b131c",
-          borderRadius: "50px",
+          fontFamily: "DeVinne Txt BT",
+          fontSize: "18px",
           height: "30px",
           width: "150px",
-          marginRight: "1em",
+          marginRight: "2em",
           marginTop: "1em",
         }}
       >
-        Item 2
-      </Button>
-      <Button
-        type="submit"
+        <Dropdown.Item href="#OPI">Esmaltes OPI</Dropdown.Item>
+        <Dropdown.Item href="#PatagoniaLayer">
+          Linea Facial Patagonia
+        </Dropdown.Item>
+        <Dropdown.Item href="#CromaLayer">Make Up</Dropdown.Item>
+      </DropdownButton>
+      <DropdownButton
+        id="dropdown-basic-button"
+        title="AROMATIZANTES"
+        drop="down-centered"
+        variant="danger"
         style={{
-          color: "#dc19269e",
-          backgroundColor: "rgba(255, 255, 255, 1)",
-          border: "1px solid",
-          borderColor: "#9b131c",
-          borderRadius: "50px",
+          fontFamily: "DeVinne Txt BT",
+          fontSize: "18px",
           height: "30px",
           width: "150px",
-          marginRight: "1em",
+          marginRight: "2em",
           marginTop: "1em",
         }}
       >
-        Item 3
-      </Button>
-      <Button
-        type="submit"
+        <Dropdown.Item href="#/action-1">Sandra Marzzan</Dropdown.Item>
+      </DropdownButton>
+      <DropdownButton
+        id="dropdown-basic-button"
+        title="RECOMENDADOS"
+        variant="danger"
         style={{
-          color: "#dc19269e",
-          backgroundColor: "rgba(255, 255, 255, 1)",
-          border: "1px solid",
-          borderColor: "#9b131c",
-          borderRadius: "50px",
+          fontFamily: "DeVinne Txt BT",
+          fontSize: "18px",
           height: "30px",
           width: "150px",
-          marginRight: "1em",
+          marginLeft: "1em",
           marginTop: "1em",
         }}
       >
-        Item 4
-      </Button>
+        <Dropdown.Item href="#/action-1">Perfumería</Dropdown.Item>
+        <Dropdown.Item href="#/action-1">Maquillaje</Dropdown.Item>
+      </DropdownButton>
     </Row>
   );
 };

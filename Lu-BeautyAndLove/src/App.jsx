@@ -1,15 +1,31 @@
 import CarrouselBanner from "./components/ImageBanner";
 import Header from "./components/Header";
 import MarkBanner from "./components/MarkBanner";
-import PerfumeLayerOne from "./components/PerfumeLayerOne";
-import products from "./data/data.json";
+import PerfumeLayerOne from "./components/Dorgeval/PerfumeLayerOne";
+import SetsLayer from "./components/Sets/SetsLayer";
+import BaguesLayer from "./components/Bagues/BaguesLayer";
+import OpiBanner from "./components/OPI/OpiBanner";
+import OpiProducts from "./components/OPI/OpiProducts";
+import CromaLayer from "./components/Maquillaje/CromaLayer";
+import PatagoniaLayer from "./components/Patagonia/PatagoniaLayer";
+import ProductLayer from "./components/SandraMarzzan/ProductLayer";
+import Footer from "./components/Footer";
+
 function App() {
   return (
     <>
       <Header />
       <MarkBanner />
       <CarrouselBanner />
-      <PerfumeLayerOne products={products} />
+      <PerfumeLayerOne />
+      <SetsLayer />
+      <BaguesLayer />
+      <OpiBanner />
+      <OpiProducts />
+      <CromaLayer />
+      <PatagoniaLayer />
+      <ProductLayer />
+      <Footer />
     </>
   );
 }

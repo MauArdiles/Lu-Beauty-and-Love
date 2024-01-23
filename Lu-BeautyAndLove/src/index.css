@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "DeVinne Txt Bt";
+    src: url("./assets/DeVinne Txt BT.ttf");
+}
+
+body {
+    font-family: "DeVinne Txt Bt", Helvetica;
+}

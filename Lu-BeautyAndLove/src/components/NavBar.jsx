@@ -8,7 +8,6 @@ import logoLu from "../assets/Logo.png";
 import { CiSearch } from "react-icons/ci";
 import DropdownButton from "react-bootstrap/DropdownButton";
 import Dropdown from "react-bootstrap/Dropdown";
-import ButtonGroup from "react-bootstrap/ButtonGroup";
 
 export const NavBar = () => {
   return (
@@ -35,17 +34,16 @@ export const NavBar = () => {
             </Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>
-            <Nav className="justify-content-end flex-grow-1 pe-3">
+            <Nav className="justify-content-center flex-grow-1 pe-1">
               <DropdownButton
-                id="dropdown-basic-button"
+                id="bg-nested-dropdown"
                 title="PERFUMES"
                 variant="danger"
-                as={ButtonGroup}
                 style={{
                   fontFamily: "DeVinne Txt BT",
                   fontSize: "18px",
-                  height: "30px",
-                  width: "150px",
+                  height: "auto",
+                  width: "auto",
                   marginRight: "2em",
                   marginTop: "1em",
                 }}
@@ -62,12 +60,11 @@ export const NavBar = () => {
                 id="dropdown-basic-button"
                 title="MAQUILLAJE"
                 variant="danger"
-                as={ButtonGroup}
                 style={{
                   fontFamily: "DeVinne Txt BT",
                   fontSize: "18px",
-                  height: "30px",
-                  width: "150px",
+                  height: "auto",
+                  width: "auto",
                   marginRight: "2em",
                   marginTop: "1em",
                 }}
@@ -83,13 +80,12 @@ export const NavBar = () => {
                 title="AROMATIZANTES"
                 drop="down-centered"
                 variant="danger"
-                as={ButtonGroup}
                 style={{
                   fontFamily: "DeVinne Txt BT",
                   fontSize: "18px",
-                  height: "30px",
-                  width: "150px",
-                  marginRight: "4em",
+                  height: "auto",
+                  width: "auto",
+                  marginRight: "2em",
                   marginTop: "1em",
                 }}
               >
@@ -99,14 +95,12 @@ export const NavBar = () => {
                 id="dropdown-basic-button"
                 title="RECOMENDADOS"
                 variant="danger"
-                as={ButtonGroup}
                 style={{
                   fontFamily: "DeVinne Txt BT",
                   fontSize: "18px",
-                  height: "30px",
-                  width: "150px",
+                  height: "auto",
+                  width: "auto",
                   marginTop: "1em",
-                  marginRight: "15em",
                 }}
               >
                 <Dropdown.Item href="#LineaBagues">Perfumería</Dropdown.Item>
@@ -145,3 +139,83 @@ const Logo = () => {
     />
   );
 };
+
+{
+  /* <DropdownButton
+id="dropdown-menu-align-responsive-1"
+title="PERFUMES"
+variant="danger"
+// as={ButtonGroup}
+align="end"
+style={{
+  fontFamily: "DeVinne Txt BT",
+  fontSize: "18px",
+  height: "30px",
+  width: "150px",
+  marginRight: "2em",
+  marginTop: "1em",
+}}
+>
+<Dropdown.Item href="#Yves D`Orgeval">
+  Yves D`Orgeval
+</Dropdown.Item>
+<Dropdown.Item href="#Sets-container">
+  Sets y Cofres
+</Dropdown.Item>
+<Dropdown.Item href="#LineaBagues">Línea Bagues</Dropdown.Item>
+</DropdownButton>
+<DropdownButton
+id="dropdown-basic-button"
+title="MAQUILLAJE"
+variant="danger"
+// as={ButtonGroup}
+style={{
+  fontFamily: "DeVinne Txt BT",
+  fontSize: "18px",
+  height: "30px",
+  width: "150px",
+  marginRight: "2em",
+  marginTop: "1em",
+}}
+>
+<Dropdown.Item href="#OPI">Esmaltes OPI</Dropdown.Item>
+<Dropdown.Item href="#PatagoniaLayer">
+  Linea Facial Patagonia
+</Dropdown.Item>
+<Dropdown.Item href="#CromaLayer">Make Up</Dropdown.Item>
+</DropdownButton>
+<DropdownButton
+id="dropdown-basic-button"
+title="AROMATIZANTES"
+drop="down-centered"
+variant="danger"
+// as={ButtonGroup}
+style={{
+  fontFamily: "DeVinne Txt BT",
+  fontSize: "18px",
+  height: "30px",
+  width: "150px",
+  marginRight: "4em",
+  marginTop: "1em",
+}}
+>
+<Dropdown.Item href="#/action-1">Sandra Marzzan</Dropdown.Item>
+</DropdownButton>
+<DropdownButton
+id="dropdown-basic-button"
+title="RECOMENDADOS"
+variant="danger"
+// as={ButtonGroup}
+style={{
+  fontFamily: "DeVinne Txt BT",
+  fontSize: "18px",
+  height: "30px",
+  width: "150px",
+  marginTop: "1em",
+  marginRight: "15em",
+}}
+>
+<Dropdown.Item href="#LineaBagues">Perfumería</Dropdown.Item>
+<Dropdown.Item href="#CromaLayer">Maquillaje</Dropdown.Item>
+</DropdownButton> */
+}

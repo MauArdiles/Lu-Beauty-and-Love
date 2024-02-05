@@ -21,7 +21,7 @@ function HomenajeSlide() {
     });
 
     const swiperParams = {
-      slidesPerView: 3,
+      slidesPerView: 2,
       breakpoints: {
         320: {
           slidesPerView: 1,
@@ -32,12 +32,12 @@ function HomenajeSlide() {
         1024: {
           slidesPerView: 2,
         },
-        // 1440: {
-        //   slidesPerView: 4,
-        // },
-        // 2560: {
-        //   slidesPerView: 5,
-        // },
+        1440: {
+          slidesPerView: 2,
+        },
+        2560: {
+          slidesPerView: 3,
+        },
       },
       on: {
         init() {},

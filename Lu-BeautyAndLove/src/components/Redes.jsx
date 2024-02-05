@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 
 export const Redes = () => {
   return (
-    <Container fluid>
+    <Container fluid style={{ marginTop: "0.5em" }}>
       <Button
         variant="link"
         href="https://www.facebook.com/profile.php?id=61553811362866&mibextid=9R9pXO"
@@ -55,4 +55,3 @@ export const Redes = () => {
     </Container>
   );
 };
-

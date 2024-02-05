@@ -3,14 +3,23 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Image from "react-bootstrap/Image";
-// import ListGroup from "react-bootstrap/ListGroup";
 import LogoLu from "../assets/Logo.png";
-import { Redes } from "./Redes";
 
 function Footer() {
   return (
-    <Container fluid style={{ marginTop: "3em" }}>
-      <Row xs={1} md={2} lg={4} style={{ justifyContent: "center" }}>
+    <Container
+      fluid
+      style={{
+        marginTop: "3em",
+        borderTop: "0.5px outset",
+      }}
+    >
+      <Row
+        xs={1}
+        md={2}
+        lg={4}
+        style={{ justifyContent: "center", marginTop: "2em" }}
+      >
         <Card>
           <Card.Img
             style={{ height: "22rem" }}
@@ -43,7 +52,7 @@ function Footer() {
       <Row
         xs={1}
         md={2}
-        lg={4}
+        lg={3}
         style={{
           marginTop: "3em",
           marginLeft: "2em",
@@ -82,10 +91,6 @@ function Footer() {
               </Card.Text>
             </Card.Body>
           </Card>
-        </Col>
-        <Col style={{ marginTop: "4em" }}>
-          <p style={{ fontSize: "20px" }}>Seguínos en nuestras Redes</p>
-          <Redes />
         </Col>
       </Row>
       <Row>

@@ -7,7 +7,7 @@ function MarkBanner() {
       <Card
         style={{
           backgroundColor: "#9b131c",
-          height: "3em",
+          height: "2em",
           color: "#ffffff",
           fontaFamily: "DeVinne Txt BT-Regular, Helvetica",
           fontSize: "18px",
@@ -15,10 +15,10 @@ function MarkBanner() {
           textAlign: "center",
         }}
       >
-        <Card.Body>
+        <Card.Subtitle>
           Aprovecha nuestros descuentos pagando con Efectivo, débito y/o
           transferencia.
-        </Card.Body>
+        </Card.Subtitle>
       </Card>
     </Container>
   );

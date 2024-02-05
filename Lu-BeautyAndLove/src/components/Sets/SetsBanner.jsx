@@ -8,6 +8,7 @@ function SetsBanner() {
         fluid
         src="https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212773&authkey=%21AJpopX4TaKGDUDU&width=1500&height=400"
         alt="Sets y Cofres"
+        width="100%"
         style={{
           borderRadius: "20px",
         }}

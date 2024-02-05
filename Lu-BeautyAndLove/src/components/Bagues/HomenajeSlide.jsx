@@ -4,12 +4,13 @@ import BaguesHomenaje from "./BaguesHomenaje";
 import products from "../../data/data.json";
 import "swiper/css/pagination";
 import "swiper/css";
-register();
+import Container from "react-bootstrap/Container";
 
 function HomenajeSlide() {
   const swiperElRef = useRef(null);
 
   useEffect(() => {
+    register();
     // listen for Swiper events using addEventListener
     swiperElRef.current.addEventListener("swiperprogress", (e) => {
       const [swiper, progress] = e.detail;
@@ -18,20 +19,48 @@ function HomenajeSlide() {
     swiperElRef.current.addEventListener("swiperslidechange", (e) => {
       console.log("slide changed");
     });
+
+    const swiperParams = {
+      slidesPerView: 3,
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 1,
+        },
+        1024: {
+          slidesPerView: 2,
+        },
+        // 1440: {
+        //   slidesPerView: 4,
+        // },
+        // 2560: {
+        //   slidesPerView: 5,
+        // },
+      },
+      on: {
+        init() {},
+      },
+    };
+
+    Object.assign(swiperElRef.current, swiperParams);
+    swiperElRef.current.initialize();
   }, []);
   return (
-    <div
+    <Container
       style={{
         fontFamily: "DeVinne Txt BT",
         fontSize: "24px",
         textAlign: "center",
+        color: "#DC1926",
       }}
     >
       Linea Homenaje
       <swiper-container
+        init="false"
         ref={swiperElRef}
         spaceBetween="20"
-        slides-per-view="2"
         navigation="true"
         preventClicks={true}
         pagination="false"
@@ -42,7 +71,7 @@ function HomenajeSlide() {
           </swiper-slide>
         ))}
       </swiper-container>
-    </div>
+    </Container>
   );
 }
 

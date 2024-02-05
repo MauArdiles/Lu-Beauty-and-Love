@@ -1,5 +1,5 @@
 import CarrouselBanner from "./components/ImageBanner";
-import Header from "./components/Header";
+import { NavBar } from "./components/NavBar";
 import MarkBanner from "./components/MarkBanner";
 import PerfumeLayerOne from "./components/Dorgeval/PerfumeLayerOne";
 import SetsLayer from "./components/Sets/SetsLayer";
@@ -10,13 +10,15 @@ import CromaLayer from "./components/Maquillaje/CromaLayer";
 import PatagoniaLayer from "./components/Patagonia/PatagoniaLayer";
 import ProductLayer from "./components/SandraMarzzan/ProductLayer";
 import Footer from "./components/Footer";
+import { Whatsapp } from "./components/Whatsapp";
 
 function App() {
   return (
     <>
-      <Header />
+      <NavBar />
       <MarkBanner />
       <CarrouselBanner />
+      <Whatsapp />
       <PerfumeLayerOne />
       <SetsLayer />
       <BaguesLayer />

@@ -1,9 +1,12 @@
 import DupesSlide from "./DupesSlide";
 import HomenajeSlide from "./HomenajeSlide";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 function BaguesLayer() {
   return (
-    <>
+    <Container fluid>
       <h3
         id="LineaBagues"
         style={{
@@ -12,27 +15,28 @@ function BaguesLayer() {
           textAlign: "center",
           marginTop: "1em",
           marginBottom: "1em",
-          textDecoration: "underline",
+          color: "#DC1926",
         }}
       >
         Bagues
       </h3>
-      <main
+      <Row
+        xs={1}
+        md={1}
+        lg={3}
         style={{
-          display: "flex",
-          flexFlow: "row",
           justifyContent: "center",
-          gap: "10em",
+          gap: "0.5em",
         }}
       >
-        <div style={{ width: "40%" }}>
+        <Col>
           <DupesSlide />
-        </div>
-        <div style={{ width: "40%" }}>
+        </Col>
+        <Col>
           <HomenajeSlide />
-        </div>
-      </main>
-    </>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

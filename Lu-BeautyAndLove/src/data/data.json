@@ -499,7 +499,7 @@
         "brand":"All Beauty",
         "name": "Body Splash",
         "description": "Aromas Varios",
-        "price":9.990,
+        "price":"$9.990",
         "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212668&authkey=%21AJkiM-Pt5zinrjI&width=924&height=758"
     }],
     "Patagonia":[
@@ -508,7 +508,7 @@
         "brand":"Patagonia",
         "name": "Desmaquillante bifásico",
         "description": "150 ml",
-        "price":14.990,
+        "price":"$14.990",
         "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212706&authkey=%21AHBp4U464VXxZPc&width=1263&height=1323"
 
     },
@@ -517,7 +517,7 @@
         "brand":"Patagonia",
         "name": "Bruma facial",
         "description": "150 ml",
-        "price":14.990,
+        "price":"$14.990",
         "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212708&authkey=%21ALAza0E1iTG6G6Y&width=1263&height=1323"
 
     },
@@ -526,7 +526,7 @@
         "brand":"Patagonia",
         "name": "Emulsión de limpieza",
         "description": "150 ml",
-        "price":14.990,
+        "price":"$14.990",
         "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212709&authkey=%21AOxgulxaGJEE9v0&width=1263&height=1320"
 
     }],

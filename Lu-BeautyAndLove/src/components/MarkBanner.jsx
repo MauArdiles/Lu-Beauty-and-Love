@@ -1,25 +1,26 @@
 import Card from "react-bootstrap/Card";
+import Container from "react-bootstrap/Container";
 
 function MarkBanner() {
   return (
-    <>
+    <Container fluid>
       <Card
-        style={{ width: "100%", backgroundColor: "#9b131c", height: "40px" }}
+        style={{
+          backgroundColor: "#9b131c",
+          height: "3em",
+          color: "#ffffff",
+          fontaFamily: "DeVinne Txt BT-Regular, Helvetica",
+          fontSize: "18px",
+          fontWeight: 300,
+          textAlign: "center",
+        }}
       >
-        <Card.Body
-          style={{
-            color: "#ffffff",
-            fontaFamily: "DeVinne Txt BT-Regular, Helvetica",
-            fontSize: "14px",
-            fontWeight: 400,
-            height: "48px",
-            textAlign: "center",
-          }}
-        >
-          PUBLICIDAD - PROMOCIONES - PAGOS EN CTAS / TARJETAS ETC
+        <Card.Body>
+          Aprovecha nuestros descuentos pagando con Efectivo, débito y/o
+          transferencia.
         </Card.Body>
       </Card>
-    </>
+    </Container>
   );
 }
 

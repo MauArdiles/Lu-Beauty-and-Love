@@ -6,17 +6,15 @@ function OpiCards({ product }) {
   return (
     <Card key={product.id} style={{ height: "38rem" }}>
       {product.image && (
-        <img src={product.image} alt={product.name} height="600" />
+        <img src={product.image} alt={product.name} height="350" width="auto" />
       )}
       <Card.Body>
-        <div className="d-grid gap-2">
+        <div className="d-grid gap-2 my-3">
           <Button
             variant="danger"
             size="sm"
             style={{
               boxShadow: "0px 4px 4px #00000059",
-              marginTop: "1em",
-              marginBottom: "1em",
             }}
             href="https://wa.me/message/6EMEVOO63BC2O1"
           >
@@ -30,7 +28,7 @@ function OpiCards({ product }) {
           {product.description}
         </Card.Text>
         <Card.Body style={{ justifyContent: "center" }}>
-          <Card.Text style={{ textAlign: "center", fontSize: "16px" }}>
+          <Card.Text style={{ textAlign: "center", fontSize: "18px" }}>
             {product.price}
           </Card.Text>
         </Card.Body>

@@ -4,9 +4,9 @@ import PropTypes from "prop-types";
 
 function Sets({ product }) {
   return (
-    <Card key={product.id} style={{ height: "38rem" }}>
+    <Card key={product.id} style={{ height: "30rem" }}>
       {product.image && (
-        <img src={product.image} alt={product.name} height="350" width="auto" />
+        <img src={product.image} alt={product.name} height="300" width="auto" />
       )}
       <Card.Body>
         <div className="d-grid gap-2 my-3">
@@ -24,9 +24,9 @@ function Sets({ product }) {
         <Card.Title style={{ textAlign: "center", fontSize: "16px" }}>
           {product.name}
         </Card.Title>
-        <Card.Text style={{ textAlign: "left", fontSize: "14px" }}>
+        {/* <Card.Text style={{ textAlign: "left", fontSize: "14px" }}>
           {product.description}
-        </Card.Text>
+        </Card.Text> */}
         <Card.Text style={{ textAlign: "center", fontSize: "18px" }}>
           {product.price}
         </Card.Text>
@@ -36,7 +36,6 @@ function Sets({ product }) {
 }
 
 Sets.propTypes = {
-  props: PropTypes.node,
   product: PropTypes.node,
 };
 

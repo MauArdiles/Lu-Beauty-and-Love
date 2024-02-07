@@ -2,14 +2,10 @@ import Carousel from "react-bootstrap/Carousel";
 import Gaultier from "../assets/Ingresos/Ingresos.png";
 import Blossom from "../assets/Ingresos/IngresosDos.png";
 import Nina from "../assets/Ingresos/IngresosTres.png";
-import BannerInn from "../assets/Ingresos/InformeIngresos.png";
 
 function ImageBanner() {
   return (
-    <Carousel data-bs-theme="dark">
-      <Carousel.Item>
-        <img className="d-block w-100" src={BannerInn} alt="Ingresos" />
-      </Carousel.Item>
+    <Carousel data-bs-theme="dark" indicators="">
       <Carousel.Item>
         <img className="d-block w-100" src={Nina} alt="NinaRicci" />
       </Carousel.Item>

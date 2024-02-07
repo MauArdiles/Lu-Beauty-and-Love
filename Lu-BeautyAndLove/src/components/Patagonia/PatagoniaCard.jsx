@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 function PatagoniaCard({ product }) {
   return (
-    <Card key={product.id} style={{ height: "38rem" }}>
+    <Card key={product.id} style={{ height: "35rem" }}>
       {product.image && (
         <img src={product.image} alt={product.name} height="350" width="auto" />
       )}

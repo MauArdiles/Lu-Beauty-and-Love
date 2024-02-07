@@ -3,12 +3,16 @@ import Image from "react-bootstrap/Image";
 
 function SetsBanner() {
   return (
-    <Container fluid style={{ marginBottom: "1.5em" }}>
+    <Container
+      fluid
+      style={{ marginBottom: "1.5em", width: "100%", height: "auto" }}
+    >
       <Image
         fluid
         src="https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212773&authkey=%21AJpopX4TaKGDUDU&width=1500&height=400"
         alt="Sets y Cofres"
         width="100%"
+        height="auto"
         style={{
           borderRadius: "20px",
         }}

@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 function Dorgeval({ product }) {
   return (
-    <Card key={product.id} style={{ height: "38rem" }}>
+    <Card key={product.id} style={{ height: "35rem" }}>
       {product.image && (
         <img src={product.image} alt={product.name} height="350" width="auto" />
       )}
@@ -24,9 +24,9 @@ function Dorgeval({ product }) {
         <Card.Title style={{ textAlign: "center", fontSize: "16px" }}>
           {product.name}
         </Card.Title>
-        <Card.Text style={{ textAlign: "center", fontSize: "14px" }}>
+        {/* <Card.Text style={{ textAlign: "center", fontSize: "14px" }}>
           {product.description}
-        </Card.Text>
+        </Card.Text> */}
         <Card.Body style={{ justifyContent: "center" }}>
           <Card.Text
             style={{

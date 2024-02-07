@@ -1,8 +1,14 @@
 @font-face {
-    font-family: "DeVinne Txt Bt";
+    font-family: "DeVinne Txt B", ;
     src: url("./assets/DeVinne Txt BT.ttf");
+
+}
+
+@font-face {
+    font-family: "Commercial Script bt Regular";
+    src: url("./assets/commercialscriptbt_regular.ttf");
 }
 
 body {
-    font-family: "DeVinne Txt Bt", Helvetica;
+    font-family: "DeVinne Txt Bt, Helvetica, Commercial Script bt Regular";
 }

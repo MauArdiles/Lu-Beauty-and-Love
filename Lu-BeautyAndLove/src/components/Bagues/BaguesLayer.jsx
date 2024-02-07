@@ -18,7 +18,7 @@ function BaguesLayer() {
           color: "#DC1926",
         }}
       >
-        Bagues
+        Baguès
       </h3>
       <Row
         xs={1}

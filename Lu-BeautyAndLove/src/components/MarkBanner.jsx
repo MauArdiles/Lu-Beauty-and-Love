@@ -16,8 +16,8 @@ function MarkBanner() {
         }}
       >
         <Card.Subtitle>
-          Aprovecha nuestros descuentos pagando con Efectivo, débito y/o
-          transferencia.
+          Aprovecha nuestros descuentos pagando con Efectivo, Débito y/o
+          Transferencia.
         </Card.Subtitle>
       </Card>
     </Container>

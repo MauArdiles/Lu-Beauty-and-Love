@@ -6,7 +6,7 @@ function Croma({ product }) {
   return (
     <Card key={product.id} style={{ height: "38rem" }}>
       {product.image && (
-        <img src={product.image} alt={product.name} height="350" width="auto" />
+        <img src={product.image} alt={product.name} height="300" width="auto" />
       )}
       <Card.Body>
         <div className="d-grid gap-2 my-3">

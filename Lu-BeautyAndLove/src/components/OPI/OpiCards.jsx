@@ -4,9 +4,9 @@ import PropTypes from "prop-types";
 
 function OpiCards({ product }) {
   return (
-    <Card key={product.id} style={{ height: "38rem" }}>
+    <Card key={product.id} style={{ height: "35rem" }}>
       {product.image && (
-        <img src={product.image} alt={product.name} height="400" width="auto" />
+        <img src={product.image} alt={product.name} height="350" width="auto" />
       )}
       <Card.Body>
         <div className="d-grid gap-2 my-3">

@@ -5,6 +5,8 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import logoLu from "../assets/Logo.png";
 import DropdownButton from "react-bootstrap/DropdownButton";
 import Dropdown from "react-bootstrap/Dropdown";
+import Image from "react-bootstrap/Image";
+import ButtonGroup from "react-bootstrap/ButtonGroup";
 import { Redes } from "./Redes";
 
 export const NavBar = () => {
@@ -18,7 +20,13 @@ export const NavBar = () => {
     >
       <Container fluid style={{ backgroundColor: "white" }}>
         <Navbar.Brand href="/">
-          <Logo />
+          <Image
+            src={logoLu}
+            alt="Logo"
+            width="150px"
+            height="auto"
+            style={{ borderRadius: "100%" }}
+          />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg" />
         <Navbar.Offcanvas
@@ -28,7 +36,13 @@ export const NavBar = () => {
         >
           <Offcanvas.Header closeButton>
             <Offcanvas.Title id="offcanvasNavbarLabel-expand-lg">
-              <Logo />
+              <Image
+                src={logoLu}
+                alt="Logo"
+                width="100px"
+                height="auto"
+                style={{ borderRadius: "100%" }}
+              />
             </Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>
@@ -36,53 +50,52 @@ export const NavBar = () => {
               <DropdownButton
                 id="bg-nested-dropdown"
                 title="PERFUMES"
+                as={ButtonGroup}
                 variant="danger"
+                size="sm"
                 style={{
                   fontFamily: "DeVinne Txt BT",
                   fontSize: "18px",
-                  height: "auto",
-                  width: "auto",
                   marginRight: "2em",
                   marginTop: "1em",
                 }}
               >
-                <Dropdown.Item href="#Yves D`Orgeval">
+                <Dropdown.Item href="#Yves DOrgeval">
                   Yves D`Orgeval
                 </Dropdown.Item>
                 <Dropdown.Item href="#Sets-container">
                   Sets y Cofres
                 </Dropdown.Item>
-                <Dropdown.Item href="#LineaBagues">Línea Bagues</Dropdown.Item>
+                <Dropdown.Item href="#LineaBagues">Línea Baguès</Dropdown.Item>
               </DropdownButton>
               <DropdownButton
                 id="dropdown-basic-button"
                 title="MAQUILLAJE"
+                as={ButtonGroup}
                 variant="danger"
+                size="sm"
                 style={{
                   fontFamily: "DeVinne Txt BT",
                   fontSize: "18px",
-                  height: "auto",
-                  width: "auto",
                   marginRight: "2em",
                   marginTop: "1em",
                 }}
               >
                 <Dropdown.Item href="#OPI">Esmaltes OPI</Dropdown.Item>
                 <Dropdown.Item href="#PatagoniaLayer">
-                  Linea Facial Patagonia
+                  Línea Facial Patagonia
                 </Dropdown.Item>
                 <Dropdown.Item href="#CromaLayer">Make Up</Dropdown.Item>
               </DropdownButton>
               <DropdownButton
                 id="dropdown-basic-button"
                 title="AROMATIZANTES"
-                drop="down-centered"
+                as={ButtonGroup}
                 variant="danger"
+                size="sm"
                 style={{
                   fontFamily: "DeVinne Txt BT",
                   fontSize: "18px",
-                  height: "auto",
-                  width: "auto",
                   marginRight: "2em",
                   marginTop: "1em",
                 }}
@@ -92,12 +105,13 @@ export const NavBar = () => {
               <DropdownButton
                 id="dropdown-basic-button"
                 title="RECOMENDADOS"
+                as={ButtonGroup}
                 variant="danger"
+                size="sm"
                 style={{
                   fontFamily: "DeVinne Txt BT",
                   fontSize: "18px",
-                  height: "auto",
-                  width: "auto",
+                  marginRight: "2em",
                   marginTop: "1em",
                 }}
               >
@@ -112,19 +126,5 @@ export const NavBar = () => {
         </Navbar.Offcanvas>
       </Container>
     </Navbar>
-  );
-};
-
-const Logo = () => {
-  return (
-    <img
-      src={logoLu}
-      alt="Logo Lu"
-      style={{
-        width: "150px",
-        height: "auto",
-        borderRadius: "100%",
-      }}
-    />
   );
 };

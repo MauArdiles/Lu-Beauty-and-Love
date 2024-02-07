@@ -158,16 +158,40 @@
         "brand":"Sandra Marzzan",
         "name": "Aromatizador x 500ml + Gatillo",
         "description": "Aromas Varios",
-        "price":"$4.990",
-        "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212663&authkey=%21ABHJgMbe44bdqNU&width=1400&height=1600"
+        "price":"$7.990",
+        "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212663&authkey=%21ABHJgMbe44bdqNU&height=660"
     },
     {
         "id": 2.2,
         "brand":"Sandra Marzzan",
         "name": "Difusor Aromático",
         "description": "Aromas Varios, incluye: cubo para rellenar y varillas",
-        "price":"$6.990",
-        "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212662&authkey=%21AGgiorJOsfQ8_AU&width=1462&height=1600"
+        "price":"$9.990",
+        "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212662&authkey=%21AGgiorJOsfQ8_AU&width=1024"
+    },
+    {
+        "id": 2.3,
+        "brand":"Sandra Marzzan",
+        "name": "Box Skin Care Étape",
+        "description": "Incluye: Loción micelar + loción hidrotonificante astringente + microgel limpieza revitalizante + pad desmaquillante + vincha.",
+        "price":"$34.990",
+        "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212790&authkey=%21AKyuly7lsfpcMAU&width=660"
+    },
+    {
+        "id": 2.4,
+        "brand":"Sandra Marzzan",
+        "name": "Box Beauty Spa",
+        "description": "Incluye: turbante + bomba efervescente + manopla exfoliante corporal + sal de lavanda súper relajante + espuma para baño.",
+        "price":"$45.990",
+        "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212791&authkey=%21AMlApovgsY-C3aU&height=1024"
+    },
+    {
+        "id": 2.5,
+        "brand":"Sandra Marzzan",
+        "name": "Box Skin Care Patagonia",
+        "description": "Incluye : Bruma facial+Emulsion de limpieza + Desmaquillante bifásico + vincha + pad desmaquillante + Jabón aromático artesanal.",
+        "price":"$55.990",
+        "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212792&authkey=%21ADC-wNOot-ciZkw&height=660"
     }],
     "Homenaje":[
     {
@@ -247,7 +271,7 @@
         "brand":"Bagués",
         "name": "Esparta/ Invictus",
         "description": "Fragancia Amaderada acuática: alcanfor,picante fresco,marino",
-        "price":"$30.990",
+        "price":"$31.990",
         "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212739&authkey=%21AIIMiImIa34Fiww&width=530&height=607"
     },
     {
@@ -302,7 +326,7 @@
         {
             "id": 3.2,
             "brand":"Bagués",
-            "name": "Femme / Fama",
+            "name": "Femme / Fame",
             "description": "Floral Amaderada: tropical, sabroso,dulce",
             "price":"$12.990",
             "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212682&authkey=%21AHRfE27L-3hU85o&width=507&height=610"
@@ -310,7 +334,7 @@
         {
             "id": 3.3,
             "brand":"Bagués",
-            "name": "New York / 212 Feme",
+            "name": "New York / 212 Fem",
             "description": "Floral Amaderada: citrus,almizcle ,flores bcas",
             "price":"$12.990",
             "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212685&authkey=%21AAI8lk98qzeHnlI&width=510&height=602"
@@ -358,7 +382,7 @@
         {
             "id": 3.9,
             "brand":"Bagués",
-            "name": "Tokio / Flowers by Kenzo",
+            "name": "Tokio / Kenzo Flower",
             "description": "Fragancia floral: violeta,rosa,dulc",
             "price":"$12.990",
             "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212691&authkey=%21AHhYLO4uQPNHRNo&width=502&height=602"
@@ -374,7 +398,7 @@
         {
             "id": 3.11,
             "brand":"Bagués",
-            "name": "Manhattan / 212 VIP fem",
+            "name": "Manhattan / 212 VIP femm",
             "description": "Fragancia ámbar vainilla: Ron, tropical,leñoso",
             "price":"$12.990",
             "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212693&authkey=%21AD4hd6MV8-ssQjo&width=513&height=596"
@@ -382,7 +406,7 @@
         {
             "id": 3.12,
             "brand":"Bagués",
-            "name": "Angers / Ange ou démon",
+            "name": "Angers / Ange ou Demon",
             "description": "Fragancia Floral: fresco,almizclado,flores bcas",
             "price":"$12.990",
             "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212694&authkey=%21AIfZG7_zjSsdroA&width=507&height=585"
@@ -424,7 +448,7 @@
         "id": 4.3,
         "brand":"Croma",
         "name": "Polvo Compacto, acabado natural",
-        "description": "Crea miradas intensas",
+        "description": "Empareja el tono de tu piel",
         "price":"$12.990",
         "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212670&authkey=%21AKDVXBipsJvnjRw&width=1260&height=1387"
     },
@@ -457,7 +481,7 @@
         "brand":"Croma",
         "name": "Bruma Facial",
         "description": "Prolonga tu Make Up",
-        "price":"$11.500",
+        "price":"$7690",
         "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212701&authkey=%21AA9JHEXVydCS5GI&width=570&height=652"
     }],
     "Opi":[
@@ -544,7 +568,7 @@
         "brand":"Paco Rabanne",
         "name": "Cofre Fame Paco Rabanne",
         "description": "Fame Eau de Parfum 80ml + Body Lotion 100ml",
-        "price":"$135.650",
+        "price":"$159.435",
         "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212722&authkey=%21AJg5IHMsPLj_uys&width=612&height=585"
     },
     {
@@ -560,7 +584,7 @@
         "brand":"Jean Paul Gaultier",
         "name": "Cofre Scandal Jean Paul Gaultier - HOMBRE",
         "description": "Cofre Sandal EDT 100ml +Desodorant + Mega Spritzer",
-        "price":"$107.290",
+        "price":"$137.205",
         "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212716&authkey=%21ANCA50lqg_wOvY4&width=612&height=605"
     },
     {
@@ -568,7 +592,7 @@
         "brand":"Carolina Herrera",
         "name": "Cofre Good Girl Carolina Herrera",
         "description": "Good girl Edp 80 ml + máscara de pestañas + Mini 7ml Edp",
-        "price":"$135.650",
+        "price":"$159.435",
         "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212723&authkey=%21AJT1d7rkppIEC6s&width=611&height=612"
     },
     {
@@ -576,7 +600,7 @@
         "brand":"Jean Paul Gaultier",
         "name": "Cofre Divine",
         "description": "Cofre Divine EDP 100ml +Travel Size 10ml",
-        "price":"$138.230",
+        "price":"$166.275",
         "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212721&authkey=%21ACvZzJ8c03sSTss&width=821&height=611"
     },
     {
@@ -584,7 +608,7 @@
         "brand":"Nina Ricci",
         "name": "Cofre Niña",
         "description": "Cofre Niña EDT 80ml+ Body Lotion 100ml + Roll on",
-        "price":"$88.750",
+        "price":"$103.500",
         "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212730&authkey=%21ANnTTagOplgSRF0&width=610&height=608"
     },
     {
@@ -592,7 +616,7 @@
         "brand":"Jean Paul Gaultier",
         "name": "Scandal - MUJER",
         "description": "Scandal Edp 80 ml +Body lotion 75 ml + Mini Edp.",
-        "price":"$122.890",
+        "price":"$154.080",
         "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212717&authkey=%21AMxP0YsjupKUrWA&width=612&height=607"
     },
     {
@@ -600,7 +624,7 @@
         "brand":"Jean Paul Gaultier",
         "name": "Set La Male",
         "description": "EDT 125ml + shower gel + mega spritzer",
-        "price":"$105.990",
+        "price":"$128.965",
         "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212728&authkey=%21AFixcFOS-cAp-pI&width=618&height=417"
     },
     {
@@ -608,7 +632,7 @@
         "brand":"Jean Paul Gaultier",
         "name": "Cofre La Belle",
         "description": "La Belle Edp 100 ml + Body lotion 75 ml + Mega Spritzer 10 ml.",
-        "price":"$125.290",
+        "price":"$169.470",
         "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212726&authkey=%21AFjY-YXcANihw4g&width=613&height=606"
     },
     {
@@ -624,7 +648,7 @@
         "brand":"Paco Rabanne",
         "name": "Cofre Phantom",
         "description": "EDT 100ml + Deo+ Mega Spritzer",
-        "price":"$108.990",
+        "price":"$130.635",
         "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212732&authkey=%21ANa0Yq6dlDni-0Q&width=606&height=607"
     },
     {
@@ -632,7 +656,7 @@
         "brand":"Paco Rabanne",
         "name": "Cofre Olympea",
         "description": "Olympea Edp 80 ml + Body lotion 100 ml +Mini 6 ml.",
-        "price":"$135.650",
+        "price":"$149.535",
         "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212731&authkey=%21AMe4DshXy7XFUWE&width=609&height=602"
     },
     {
@@ -640,7 +664,7 @@
         "brand":"Adolfo Dominguez",
         "name": "SET  AGUA FRESCA MIMOSA",
         "description": "EDT+ CREMA",
-        "price":"$29.990",
+        "price":"$59.990",
         "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212729&authkey=%21AMOAbe0z6CeqSPs&width=763&height=530"
     },
     {
@@ -655,8 +679,8 @@
         "id": 16,
         "brand":"Benetton",
         "name": "SET BENETTON PINK RASPBERRY",
-        "description": "EDT 125ml + shower gel + mega spritzer",
-        "price":"$105.990",
+        "description": "EDT + CREMA",
+        "price":"$30.990",
         "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212714&authkey=%21ACHVNFIp4exDnGI&width=611&height=606"
     },
     {

@@ -27,7 +27,7 @@ function DupesSlide() {
           slidesPerView: 1,
         },
         768: {
-          slidesPerView: 1,
+          slidesPerView: 2,
         },
         1024: {
           slidesPerView: 2,
@@ -57,7 +57,7 @@ function DupesSlide() {
         color: "#DC1926",
       }}
     >
-      Linea Dupes
+      Linea Dupès
       <swiper-container
         init="false"
         ref={swiperElRef}

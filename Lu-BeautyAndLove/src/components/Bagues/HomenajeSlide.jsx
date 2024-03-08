@@ -56,7 +56,7 @@ function HomenajeSlide() {
         color: "#DC1926",
       }}
     >
-      Linea Homenaje
+      Línea Homenaje
       <swiper-container
         init="false"
         ref={swiperElRef}

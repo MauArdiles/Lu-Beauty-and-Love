@@ -57,7 +57,7 @@ function DupesSlide() {
         color: "#DC1926",
       }}
     >
-      Linea Dupès
+      Línea Dupès
       <swiper-container
         init="false"
         ref={swiperElRef}

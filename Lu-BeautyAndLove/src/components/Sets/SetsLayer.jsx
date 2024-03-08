@@ -2,7 +2,7 @@ import { useRef, useEffect } from "react";
 import { register } from "swiper/element/bundle";
 import Sets from "./Sets";
 import products from "../../data/data.json";
-import SetsBanner from "./SetsBanner";
+// import SetsBanner from "./SetsBanner";
 import "swiper/css/pagination";
 import "swiper/css";
 import Container from "react-bootstrap/Container";
@@ -60,7 +60,20 @@ function SetsLayer() {
         width: "100%",
       }}
     >
-      <SetsBanner />
+      {" "}
+      <h3
+        id="Sets y cofres"
+        style={{
+          color: "#DC1926",
+          textAlign: "center",
+          marginTop: "1em",
+          marginBottom: "1em",
+          fontSize: "34px",
+        }}
+      >
+        Sets y Cofres Originales
+      </h3>
+      {/* <SetsBanner /> */}
       <swiper-container
         init="false"
         ref={swiperElRef}

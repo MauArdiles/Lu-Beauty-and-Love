@@ -5,7 +5,7 @@ import Image from "react-bootstrap/Image";
 export const Whatsapp = () => {
   const buttonStyle = {
     position: "sticky",
-    top: "35em",
+    top: "30em",
     zIndex: 1000,
     left: "90em",
   };

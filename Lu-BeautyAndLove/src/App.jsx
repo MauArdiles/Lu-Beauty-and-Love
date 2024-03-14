@@ -8,7 +8,7 @@ import OpiBanner from "./components/OPI/OpiBanner";
 import OpiProducts from "./components/OPI/OpiProducts";
 import CromaLayer from "./components/Maquillaje/CromaLayer";
 import PatagoniaLayer from "./components/Patagonia/PatagoniaLayer";
-import ProductLayer from "./components/SandraMarzzan/ProductLayer";
+import BeautySpaLayer from "./components/SandraMarzzan/BeautySpaLayer";
 import Footer from "./components/Footer";
 import { Whatsapp } from "./components/Whatsapp";
 
@@ -26,7 +26,7 @@ function App() {
       <OpiProducts />
       <CromaLayer />
       <PatagoniaLayer />
-      <ProductLayer />
+      <BeautySpaLayer />
       <Footer />
     </>
   );

@@ -929,26 +929,28 @@
         "description": "Aromas Varios, incluye: cubo para rellenar y varillas",
         "price":"$9.990",
         "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212662&authkey=%21AGgiorJOsfQ8_AU&width=1024"
-    },
+    }
+    ],
+    "LuBeautySpa":[
     {
-        "id": 2.3,
-        "brand":"Sandra Marzzan",
+        "id": 1,
+        "brand":"Lu Beauty & Spa",
         "name": "Box Skin Care Étape",
         "description": "Incluye: Loción micelar + loción hidrotonificante astringente + microgel limpieza revitalizante + pad desmaquillante + vincha.",
         "price":"$34.990",
         "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212790&authkey=%21AKyuly7lsfpcMAU&width=660"
     },
     {
-        "id": 2.4,
-        "brand":"Sandra Marzzan",
+        "id": 2,
+        "brand":"Lu Beauty & Spa",
         "name": "Box Beauty Spa",
         "description": "Incluye: turbante + bomba efervescente + manopla exfoliante corporal + sal de lavanda súper relajante + espuma para baño.",
         "price":"$45.990",
         "image":"https://onedrive.live.com/embed?resid=7157A54F8B72CB41%212791&authkey=%21AMlApovgsY-C3aU&height=1024"
     },
     {
-        "id": 2.5,
-        "brand":"Sandra Marzzan",
+        "id": 3,
+        "brand":"Lu Beauty & Spa",
         "name": "Box Skin Care Patagonia",
         "description": "Incluye : Bruma facial+Emulsion de limpieza + Desmaquillante bifásico + vincha + pad desmaquillante + Jabón aromático artesanal.",
         "price":"$55.990",

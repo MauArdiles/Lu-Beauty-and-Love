@@ -5,7 +5,7 @@ import products from "../../data/data.json";
 import Container from "react-bootstrap/Container";
 import "swiper/css";
 
-function ProductLayer() {
+function SpaLayer() {
   const swiperElRef = useRef(null);
 
   useEffect(() => {
@@ -26,7 +26,7 @@ function ProductLayer() {
           slidesPerView: 1,
         },
         768: {
-          slidesPerView: 1,
+          slidesPerView: 2,
         },
         1024: {
           slidesPerView: 2,
@@ -57,6 +57,7 @@ function ProductLayer() {
       }}
     >
       <h3
+        id="SandraMarzzan"
         style={{
           textAlign: "center",
           marginTop: "1em",
@@ -64,7 +65,7 @@ function ProductLayer() {
           color: "#DC1926",
         }}
       >
-        Aromatizantes Sandra Marzzan
+        Lu Beauty & Spa
       </h3>
       <swiper-container
         init="false"
@@ -72,7 +73,7 @@ function ProductLayer() {
         navigation="true"
         pagination="false"
       >
-        {products.SandraMarzzan.map((product) => (
+        {products.LuBeautySpa.map((product) => (
           <swiper-slide key={product.id}>
             <ProductCard product={product} />
           </swiper-slide>
@@ -82,4 +83,4 @@ function ProductLayer() {
   );
 }
 
-export default ProductLayer;
+export default SpaLayer;
